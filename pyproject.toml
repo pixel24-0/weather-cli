@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-cli"
+version = "1.0.0"
+description = "Zero-dependency Python CLI that fetches current weather and forecasts from the free Open-Meteo API"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Farbod", email = "syx4000.s@gmail.com" },
+]
+keywords = ["weather", "cli", "open-meteo", "forecast"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+
+[project.scripts]
+weather = "weather.cli:main"
+
+[tool.setuptools]
+packages = ["weather"]
