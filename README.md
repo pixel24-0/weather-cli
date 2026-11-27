@@ -123,7 +123,7 @@ weather-cli/
 
 ## License
 
-MIT — Farbod. See [LICENSE](LICENSE).
+MIT — Weather CLI contributors. See [LICENSE](LICENSE).
 
 ## مستندات فارسی
 
@@ -132,4 +132,4 @@ MIT — Farbod. See [LICENSE](LICENSE).
 - **اجرا:** پس از نصب با `pip install -e .` کافی است دستوری مانند `weather Tehran --days 3` را اجرا کنید؛ اجرای `python -m weather Tehran` هم بدون نصب کار می‌کند.
 - **گزینه‌ها:** `--days` برای تعداد روزها، `--unit f` برای فارنهایت و `--json` برای خروجی JSON استفاده می‌شود.
 - **تست:** تست‌ها کاملاً بدون اینترنت اجرا می‌شوند و همه درخواست‌های شبکه با داده‌های نمونه جایگزین شده‌اند؛ اجرای آن‌ها با دستور `pytest -q` انجام می‌شود.
-- **مجوز:** این پروژه تحت مجوز MIT منتشر شده و متعلق به Farbod است.
+- **مجوز:** این پروژه تحت مجوز MIT منتشر شده و متعلق به پروژه Weather CLI است.

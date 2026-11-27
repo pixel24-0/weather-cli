@@ -9,7 +9,7 @@ description = "Zero-dependency Python CLI that fetches current weather and forec
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    { name = "Farbod", email = "syx4000.s@gmail.com" },
+    { name = "pixel24-0", email = "syx4000.s@gmail.com" },
 ]
 keywords = ["weather", "cli", "open-meteo", "forecast"]
 classifiers = [
